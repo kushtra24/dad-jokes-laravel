@@ -16,7 +16,6 @@ class CreateJokesTable extends Migration
         Schema::create('jokes', function (Blueprint $table) {
             $table->integer('id');
             $table->string('joke');
-            $table->integer('status');
         });
     }
 
